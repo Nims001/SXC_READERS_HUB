@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <title>Update Account Information</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="signup-box signup-box-background">
+      <h1>Update Information</h1>
+      <h4>Change your account information</h4>
+      <form action="PHP/update.php" method="post">
+        <label>Email</label>
+        <input type="email" placeholder="" name="email" />
+        <label>Password</label>
+        <input type="password" placeholder="" name="pass" />
+        <label>First Name</label>
+        <input type="text" placeholder="" name="fname" />
+        <label>Last Name</label>
+        <input type="text" placeholder="" name="lname" />
+        
+        
+        <label>New Password</label>
+        <input type="password" placeholder="" name="npass" />
+        <label>Confirm Password</label>
+        <input type="password" placeholder="" name="cpass" />
+        <input type="submit" value="Submit" name="Submit" />
+      </form>
+    </div>
+   
+  </body>
+</html>

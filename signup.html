@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="signup-box signup-box-background">
+      <h1>Sign Up</h1>
+      <h4>Sign Up to Join SXC READER'S HUB</h4>
+      <form action="PHP/signup.php" method="post">
+        <label>First Name</label>
+        <input type="text" placeholder="" name="fname" />
+        <label>Last Name</label>
+        <input type="text" placeholder="" name="lname" />
+        <label>Email</label>
+        <input type="email" placeholder="" name="email" />
+        <label>Password</label>
+        <input type="password" placeholder="" name="pass" />
+        <label>Confirm Password</label>
+        <input type="password" placeholder="" name="cpass" />
+        <input type="submit" value="Submit" name="Submit" />
+        
+      </form>
+    </div>
+    <p class="para-2">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+  </body>
+</html>
